@@ -18,7 +18,7 @@ function SecondApi(){
                                     <h2 className="text-white text-4x1 text-center my-4">{elemento.name}</h2>
                                     <p className="">Status: <span className={elemento.status === "Alive" ? "text-green-400" : "text-red-400"}>
                                     {elemento.status}</span></p> 
-                                            <Link className="flex flex-col items-center text-teal-300  focus:text-teal-500 hover:underline " to={`/ApiNokey/${elemento.id}`}>
+                                            <Link className="flex flex-col items-center text-teal-300  focus:text-teal-500 hover:underline " to={`/${elemento.id}`}>
                                                 <p>Ver más...</p>
                                             </Link>
                                 </div>

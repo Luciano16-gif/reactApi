@@ -34,7 +34,7 @@ const {id} = useParams()
 
                                         <p className="text-white">Current location:  
                                             <span className="text-pink-400"> {data.location.name}</span></p>   
-                                            <Link className="flex flex-col items-center text-teal-300  focus:text-teal-500 hover:underline " to="/ApiNoKey">
+                                            <Link className="flex flex-col items-center text-teal-300  focus:text-teal-500 hover:underline " to="/">
                                                 <p>Volver a la página principal</p>
                                             </Link>
                                         
