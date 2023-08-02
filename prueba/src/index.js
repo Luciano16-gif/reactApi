@@ -10,7 +10,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<ApiNoKey />}  />
-        <Route path=":id" element={<ApiKey />}  />
+        <Route path="/:id" element={<ApiKey />}  />
 
       </Routes>
     </BrowserRouter>
